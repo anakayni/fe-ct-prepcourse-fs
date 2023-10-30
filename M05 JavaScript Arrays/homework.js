@@ -148,11 +148,10 @@ function cuentoElementos(array) {
    //   if(element > 18) contador++
    //});
    var mayor = array.filter(element => element > 18);
-   console.log(mayor.length);
    return mayor.length;
    //OK
 }
-console.log(cuentoElementos([1,45,14,56]))
+//console.log(cuentoElementos([1,45,14,56]))
 
 function diaDeLaSemana(numeroDeDia) {
    // Supongamos que los días de la semana se codifican como 1 = Domingo, 2 = Lunes y así sucesivamente.
@@ -181,6 +180,7 @@ function todosIguales(array) {
    for (let i = 0; i < array.length; i++) {
          if(array[i] != pointer) return false
       }return true
+   //OK
 }
 
 function mesesDelAño(array) {
@@ -196,6 +196,7 @@ function mesesDelAño(array) {
    
    if(meses.length < 3 ) return "No se encontraron los meses pedidos"
    else return meses;
+   //OK
 }
 
 function tablaDelSeis() {
@@ -207,6 +208,7 @@ function tablaDelSeis() {
       tabla.push(6 * [i]);
    }
    return tabla;
+   //OK
 }
 
 function mayorACien(array) {
